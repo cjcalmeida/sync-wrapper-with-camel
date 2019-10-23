@@ -1,0 +1,11 @@
+app:
+  queue:
+    in: DEV.QUEUE.1
+    out: DEV.QUEUE.2
+ibm:
+  mq:
+    conn-name: localhost(1414)
+    user: admin
+    password: passw0rd
+    queue-manager: QM1
+    channel: DEV.ADMIN.SVRCONN
